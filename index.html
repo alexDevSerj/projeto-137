@@ -1,0 +1,41 @@
+<html>
+<head>
+
+	<title>IA de Vigilância por Vídeo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="modern-gold-background-free-vector.jpg">
+<center>
+<h1 class="btn-info heading">IA de vigilancia por video</h1>
+<h3 class="btn btn-info nota">nota:ligue a webcam,e coloque um objeto na frente da camera e o objeto sera detectado</h3>
+<br><br>
+<h2 class="btn-warning">nome do objeto (em ingles)</h2>
+<input type="" id="valor">
+<br><br>
+<button onclick="start()" class="btn-success" id="start">iniciar</button>
+
+<br>
+<h3 id="numeroDeOjs" class="btn btn-warning"> </h3>
+<br>
+<h3 id="status" class="btn btn-danger"> </h3>
+
+<div class="copyrightFooter">
+  desenvolvido por - alex
+</div>
+</center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+body{
+  background-size: cover;
+}
+
+.heading{
+  font-size: 23px;
+  width: 100%;
+  margin: 0;
+}
+
+.nota{
+  font-size: 20px;
+  width: 50%;
+  margin: 0;
+}
+
+#start{
+  font-size: 20px;
+}
+
+#status, #numeroDeObj{
+  font-size: 22px;
+}
+
+.copyrightFooter{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgrey;
+  color: blue;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+}
+canvas{
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 130px;
+  box-shadow: 5px 5px 5px blue;
+}
